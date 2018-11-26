@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+<style>
+	p,ul{margin: 0;padding: 0;}
+	.div{
+		width: 50%;
+		height: 640px;
+		margin:0 auto;
+		border: 1px solid #f1f1f1;
+	}
+	.div h1{
+		width: 100%;
+		height: 50px;
+		background: #38D0BE;
+		line-height: 50px;
+		font-size: 23px;
+		text-indent: 1.5em;
+	}
+	.div h1 select{
+		float: right;
+		margin-top: 17px;
+	}
+	.div h1>span{
+		font-size: 13px;
+		color: #3a3939;
+	}
+	.div .body p{
+		width: 50%;
+	    float: left;
+	    margin: 10px 0 10px 0;
+	    text-indent: 2em;
+	}
+	.div p:last-child{
+		width: 100%;
+        float: left;
+	}
+	.body{
+		overflow:hidden;
+	}
+	.forword h2{
+		width: 100%;
+		height: 50px;
+		background: #38D0BE;
+		line-height: 50px;
+		font-size: 23px;
+		text-indent: 1.5em;
+	}
+	.forword p{
+		width: 100%;
+		height: 50px;
+		display: flex;
+	}
+	.forword p span{
+		flex: 1;
+		text-align: center;
+		line-height: 50px;
+		border:1px solid #dddddd;
+	}
+	.forword h2{
+		width: 100%;
+		height: 50px;
+	}
+	.forword li{
+		width: 100%;
+		height: 50px;
+		display: flex;
+	}
+	.forword li span{
+		flex: 1;
+		text-align: center;
+		line-height: 50px;
+		border:1px solid #dddddd;
+	}
+</style>
+	<body>
+			<div class="div">
+				<h1>今日天气信息<span>   日期:<span>  11月26日</span></span><select id="select_city"><option>北京</option><option>大连</option><option>长春</option></select></h1>
+				<div class="body">
+					<p>城市：<span>北京</span></p>
+					<p>天气：<span>雾霾</span></p>
+					<p>当前气温：<span>3℃</span></p>
+					<p>风向风力：<span>西北风3级</span></p>
+					<p>最高气温：<span>0℃</span></p>
+					<p>最低气温：<span>-10℃</span></p>
+					<p>温馨提醒：<span>雾霾严重，出门请佩戴口罩</span></p>
+				</div>
+				<div class="forword">
+					<h2>未来一周天气预报</h2>
+					<p><span>日期</span><span>天气</span><span>最高气温</span><span>最低气温</span><span>风力</span><span>风向</span></p>
+                  	<p><span>11.27</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>11.27</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>11.28</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>11.29</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>11.30</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>12.1</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>12.2</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    	<p><span>12.3</span><span>雾霾</span><span>1℃</span><span>-10℃</span><span>3级</span><span>东北风</span></p>
+    
+                  
+                  
+                  
+					<ul>
+						<!--<li><span>16日</span><span>20℃</span><span>3-4级</span><span>20℃</span><span>东南</span></li>-->
+					</ul>
+				</div>
+			</div>
+		<script src="../jquery-1.11.2.min.js"></script>
+		
+      
+      
+	</body>
+</html>
